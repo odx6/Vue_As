@@ -14,7 +14,7 @@ export default {
         requered:true,
        },
        version:{
-        type:Number,
+        type:String,
         requered:true,
        },
        link:{

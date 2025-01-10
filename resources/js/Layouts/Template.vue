@@ -42,7 +42,7 @@ const showingNavigationDropdown = ref(false);
             <img :src="user" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Alexander Pierce</a>
+            <a href="#" class="d-block">{{ $page.props.auth.user.name }}</a>
           </div>
         </div>
   
@@ -63,7 +63,7 @@ const showingNavigationDropdown = ref(false);
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
-      <ContentHeader titulo="Contenedor para titulo"></ContentHeader>
+      <ContentHeader titulo="Inicio"></ContentHeader>
   
       <!-- Main content -->
       <section class="content">
@@ -76,7 +76,7 @@ const showingNavigationDropdown = ref(false);
     </div>
     <!-- /.content-wrapper -->
   
-    <Footer mensaje="Version" version=3.0.4  link="https://adminlte.io">
+    <Footer mensaje="Version" version="3.0.4"  link="https://adminlte.io">
     </Footer>
   
     <!-- Control Sidebar -->

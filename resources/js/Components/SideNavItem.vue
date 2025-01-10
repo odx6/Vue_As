@@ -32,8 +32,7 @@ export default {
                 </p>
               </a>
               <ul class="nav nav-treeview">
-                <Item nombreItem="Everardo" Icono="far fa-circle nav-icon" link="Hola"></Item>
-                <Item nombreItem="Everardo 2" Icono="far fa-circle nav-icon" link="Hola"></Item>
+                <slot/>
                
               </ul>
             </li>
